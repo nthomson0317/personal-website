@@ -8,25 +8,25 @@ class Interest extends Component {
     return (
       <div className={classes.box} id="interest">
         <ScrollAnimation offset="0" animateIn="fadeInLeft" duration='2.4' animateOnce="true" initiallyVisible={true}>
-          <span className={classes.head}>WHAT I DO?</span>
-          <h2 className={classes.heading}>HERE ARE SOME OF MY EXPERTISE</h2>
+          {/* <span className={classes.head}></span> */}
+          <h2 className={classes.heading}>WHAT I DO</h2>
           <div className={classes.Interest}>
             <ScrollAnimation offset="0" animateIn="fadeInLeft" duration='2.4' animateOnce="true" initiallyVisible={true}>
               <div className={classes.web}>
-                <h3>APP Develpoment</h3>
-                <p>I also have knowledge of flutter development and have experience in building android and IOS applications. I also have live app published on Google Play Store. </p>
+                <h3>Front-end</h3>
+                <p>I love building beautiful, responsive apps using HTML, CSS, Javascript, and ReactJs. </p>
               </div>
             </ScrollAnimation>
             <ScrollAnimation offset="0" animateIn="fadeInLeft" duration='2.4' animateOnce="true" initiallyVisible={true}>
               <div className={classes.app}>
-                <h3>Web Develpoment</h3>
-                <p>I am a full stack web developer(MERN) and build websites using HTML, CSS, Javascript, ReactJs.<br /> I have also good grasp on Node and NoSQL(MongoDb)</p>
+                <h3>Back-end</h3>
+                <p>As a full stack web developer, I can build a well-structured, easy-to-navigate back-end using Ruby on Rails.</p>
               </div>
             </ScrollAnimation>
             <ScrollAnimation offset="0" animateIn="fadeInLeft" duration='2.4' animateOnce="true" initiallyVisible={true}>
               <div className={classes.other}>
-                <h3>Other's Interest</h3>
-                <p>I also have decent hand in developing website with WordPress.<br /> Adobe Photoshop, Adobe Illustrator, MS Office, C++, Github are my other fields of interest. </p>
+                <h3>Other Interest</h3>
+                <p> I have experience with Adobe Photoshop, Adobe Illustrator, SQLite, and Github. </p>
               </div>
             </ScrollAnimation>
           </div>
