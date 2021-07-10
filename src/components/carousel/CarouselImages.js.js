@@ -8,7 +8,7 @@ import {FaArrowCircleDown} from 'react-icons/fa'
 import Hello from '../images/nt.jpg'
 import painting from '../images/cropped_painting.jpg'
 // import laptop1 from '../images/laptop1.jpg'
-import { Document } from 'react-pdf'
+// import { Document } from 'react-pdf'
 
  class CarouselImages extends Component {
      render(){
@@ -20,7 +20,7 @@ import { Document } from 'react-pdf'
                     <img className={classes.image} src={Hello}  alt="myImage"/>
                     <div  className={classes.h1}>
                        <h1 >I'm Nicholas</h1>
-                       <a download href="/Nicholas_Thomson_Resume 4_2021.pdf" rel="opener noreferrer" target="_blank">VIEW CV   <FaArrowCircleDown/></a>
+                       <a download href="/Nicholas_Thomson_Resume_4_2021.pdf" rel="opener noreferrer" target="_blank">VIEW CV   <FaArrowCircleDown/></a>
                     </div>
                 </div>
                 <div className={classes.image_container}>
