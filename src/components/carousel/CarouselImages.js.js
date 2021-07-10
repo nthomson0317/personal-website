@@ -26,7 +26,7 @@ import painting from '../images/cropped_painting.jpg'
                 <div className={classes.image_container}>
                     <img className={classes.image} src={painting} alt="myImage"/>
                     <div  className={classes.h2}> 
-                    <h1>portfolio</h1>
+                    <h1>portfolio [TK]</h1>
                     <a href="https://github.com/mittalsam98" rel="opener noreferrer" target="_blank">VIEW PROJECTS   <GoProject/></a>
                     <br></br>
                     <br></br>
