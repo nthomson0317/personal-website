@@ -1,7 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
 .image{
-  height:734px;
+  height: 100%;
+  width: 100%;
 }
+
+/* .carousel-container {
+  position: relative;
+  max-width: 432px;
+  max-height: 289px;
+
+   .carousel {
+      .slide {
+          img {
+              
+          }
+      }
+   } */
 
 .h1{
     margin:50px;
