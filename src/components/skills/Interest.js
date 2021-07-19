@@ -14,7 +14,7 @@ class Interest extends Component {
             <ScrollAnimation offset="0" animateIn="fadeInLeft" duration='2.4' animateOnce="true" initiallyVisible={true}>
               <div className={classes.web}>
                 <h3>Front-end</h3>
-                <p>I love building beautiful, responsive apps using HTML, CSS, Javascript, and ReactJs. </p>
+                <p>I love building beautiful, responsive apps using HTML, CSS, Javascript, and ReactJs | Redux. </p>
               </div>
             </ScrollAnimation>
             <ScrollAnimation offset="0" animateIn="fadeInLeft" duration='2.4' animateOnce="true" initiallyVisible={true}>

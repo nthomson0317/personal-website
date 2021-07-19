@@ -1,18 +1,30 @@
 import React,{Component} from 'react';
 import './App.css';
-import {BrowserRouter as Router} from 'react-router-dom';
+import './components/Project.css'
+import {Switch, Link, Route, withRouter, Redirect, BrowserRouter} from 'react-router-dom'
  import Sidebar from './components/sidebar/Sidebar';
 import About from './components/about/About';
 import Education from './components/Education/Education';
 import Interest from './components/skills/Interest'
 import CarouselImages from './components/carousel/CarouselImages.js'
+import ProjectsList from './components/ProjectsList'
 
 
 class App extends Component {
 
+   renderProjects = (routerProps) => {
+    return (
+    <div>
+    <ProjectsList />
+    </div>
+    )
+  }
+
   render(){
   return (
-    <Router>
+    <Switch>
+    <Route path="/projects" render={ this.renderProjects } />
+    <Route path={'/'} >
       <div className="App">
           <div className="side">
             <nav className="navbar side navbar-expand-lg navbar-light p-0" >
@@ -34,7 +46,8 @@ class App extends Component {
                 <Education />
             </div>
       </div>
-   </Router>
+   </Route>
+   </Switch>
   );
   }
 }

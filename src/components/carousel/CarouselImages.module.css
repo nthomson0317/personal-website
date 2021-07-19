@@ -107,3 +107,7 @@
     left:17px;
     }
   }
+
+  card.project-card {
+    width: 25vw;
+  }
