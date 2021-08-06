@@ -13,7 +13,7 @@ export default function Project(props) {
 
 
     return (
-        <div class="ui centered link cards">
+        <div class="ui centered cards">
       <br></br>
         <Card 
         onClick={handleClick}
