@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Card, Button } from 'semantic-ui-react'
 import ReactDOM from "react-dom";
-import './Project.css'
+import project from './Project.css'
 
 export default function Project(props) {
     const[flipped, setIsFlipped]=useState(false)
@@ -13,7 +13,7 @@ export default function Project(props) {
 
 
     return (
-        <div class="ui link cards">
+        <div class="ui centered link cards">
       <br></br>
         <Card 
         onClick={handleClick}
