@@ -26,7 +26,7 @@ import {Switch, Link, Route, withRouter, Redirect, BrowserRouter} from 'react-ro
                     <img className={classes.image} src={Hello}  alt="myImage"/>
                     <div  className={classes.h1}>
                        <h1 >I'm Nicholas</h1>
-                       <a download href="/Nicholas_Thomson_Resume_4_2021.pdf" rel="opener noreferrer" target="_blank">VIEW CV   <FaArrowCircleDown/></a>
+                       <a download href="/Nicholas_Thomson_Resume_8_2021.pdf" rel="opener noreferrer" target="_blank">VIEW CV   <FaArrowCircleDown/></a>
                 </div>
                 </div>
                 <div className={classes.image_container}>

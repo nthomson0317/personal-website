@@ -50,7 +50,7 @@ export default function Project(props) {
         </div>
       }
         </Card>
-        Link to site: {project.link}
+        Link to site: {props.project.link}
         <br></br>
         </div>
     )
