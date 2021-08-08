@@ -76,7 +76,6 @@ export default function ProjectsList(props) {
 
 
 
-
     let projects = [{name: "Orchid", url: "https://www.youtube.com/embed/lUjXOi96-VU", thumbnail: orchid, description: 'A Spotify-like app designed for classical music', link: 'https://orchid-app.herokuapp.com/', description: 'A Spotify-like app designed for classical music'},
       {name: "Open Chessame", url:'https://www.youtube.com/embed/dW_hUm2-UtY', thumbnail: 'https://cdn.dribbble.com/users/230124/screenshots/5350574/knight.jpg?compress=1&resize=400x300', description: 'A user-based app for players to improve their chess openings.', link: 'https://open-chessame.herokuapp.com/', description: 'An app that helps users improve their chess openings'},
       {name: "Beanies, Baby!", url: 'https://www.youtube.com/embed/SjcJoyO0lHI', thumbnail: 'https://tycdn.azureedge.net/static/dist/client/img/ty-logo-lg.07ca167.png', description: 'An e-commerce site that allows users to shop for and purchase beanie babies.', link: '', description: 'An e-commerce site, which allows users to shop for Beanie Babies'}, 
