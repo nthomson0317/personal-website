@@ -36,7 +36,7 @@ class Education extends Component {
                                                 </div>
                                                 <div className={classes.label}>
                                                 <h2 >Higher Education  <span>April 2021 - August 2021</span></h2>
-                                                <p> I completed the immersive Software Engineering Program at the Flatiron School, where I learned JavaScript, React, Redux, Ruby, Rails, PostgreSQL, and much more. </p>
+                                                <p> Completed the immersive Software Engineering Program at the Flatiron School, where I learned JavaScript, React, Redux, Ruby, Rails, PostgreSQL, and much more. </p>
                                                 </div>
                                             </article>
                                         </ScrollAnimation>
@@ -47,7 +47,7 @@ class Education extends Component {
                                                 </div>
                                                 <div className={classes.label}>
                                                 <h2 >Undergrad <span>2007-2011</span></h2>
-                                                <p>I got my B.A. in philosophy from the University of Chicago</p>
+                                                <p>Received a B.A. in philosophy from the University of Chicago</p>
                                                 </div>
                                                   <div className={classes.timeline_entry_inner}><div  className={classes.timeline_icon_3||classes.color_none}></div></div>
                                             </article>
