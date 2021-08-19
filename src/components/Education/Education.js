@@ -39,18 +39,18 @@ class Education extends Component {
                                                 </div>
                                             </article>
                                         </ScrollAnimation>
-                                        {/* <ScrollAnimation offset="0" animateIn="fadeInLeft" duration='2.4' animateOnce="true" initiallyVisible ={true}>
+                                        <ScrollAnimation offset="0" animateIn="fadeInLeft" duration='2.4' animateOnce="true" initiallyVisible ={true}>
                                             <article>
                                                 <div className={`${classes.timeline_icon} ${classes.timeline_icon_4}`} >
                                                     <MdWork />     
                                                 </div>
                                                 <div className={classes.label}>
-                                                <h2 >Internship</h2>
-                                                <p></p>
+                                                <h2 >Technical Writer at Datadog</h2>
+                                                <p>Pitch, research, write, and occasionally edit articles for Datadog’s main blog (aka “The Monitor”), which covers Datadog in depth and provides valuable information to the broader tech community around observability, best practices, and industry trends.</p>
                                                 </div>
                                                 <div className={classes.timeline_entry_inner}><div  className={classes.timeline_icon_3||classes.color_none}></div></div>
                                             </article>
-                                        </ScrollAnimation> */}
+                                        </ScrollAnimation>
                                     </div>
                                 </div>
                             </div>
